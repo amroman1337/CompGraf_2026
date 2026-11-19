@@ -12,3 +12,7 @@ cat >> .gitignore <<'EOF'
 /CMakeCache.txt
 /imgui.ini
 EOF
+
+**/build*/
+**/imgui.ini
+
