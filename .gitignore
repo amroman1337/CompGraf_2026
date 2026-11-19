@@ -1,3 +1,14 @@
 build-*/
 shaders/*.spv
 imgui.ini
+
+cat >> .gitignore <<'EOF'
+
+# Локальные результаты сборки
+/build*/
+/out/
+/.vs/
+/CMakeFiles/
+/CMakeCache.txt
+/imgui.ini
+EOF
